@@ -29,3 +29,22 @@ Additionally, the absence of detailed performance tracking limits the ability to
 The **Maven Market Analysis** project serves as a decision-support tool for retail managers, business analysts, and strategists, by consolidating diverse datasets into interactive dashboards, this project empowers stakeholders to make data-driven decisions that enhance efficiency, profitability, and customer satisfaction.
 
 ### 7) Screenshots (Preview)
+  1) Homepage <p align="center">
+  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Home%20Page.png" />
+</p>
+
+  2) Sales Performance Dashboard <p align="center">
+  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Sales%20Performance%20Dashboard.png" />
+</p>
+
+  3) Customer Overview Dashboard <p align="center">
+  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Customer%20Overview%20Dashboard.png" />
+</p>
+
+  4) Store & Regional Summary Dashboard <p align="center">
+  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Store%20%26%20Regional%20Summary%20Dashboard.png" />
+</p>
+
+  5) Key Takeaways <p align="center">
+  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Key%20Takeaways.png" />
+</p>
