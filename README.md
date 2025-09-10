@@ -8,7 +8,7 @@ The **Maven Market Analysis Report** is an engaging Power BI report designed to 
 ### 2) Tech Stack
 The following tools & technologies played key role in building this project:
   - 🟩 **MS Excel:** Used for storing the extracted raw data tables (csv format).
-  - 🛢️ **My SQL Workbench:** Data transformation & cleaning for preparing the data for furthur analysis.
+  - 🛢️ **My SQL Workbench:** Data transformation & cleaning for preparing the data for further analysis.
   - 📊 **Power BI Desktop:** Main data visualization platform used for report creation.
   - 🔗 **Data Modeling:** Used for relationship establishment among the tables to enable cross-filtering & aggregations.
   - 🧠 **DAX (Data Analysis Expression):** Used for calculated measures, dynamic visuals & conditional logics.
