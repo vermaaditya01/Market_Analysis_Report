@@ -89,3 +89,7 @@ The **Maven Market Analysis** project serves as a decision-support tool for reta
   5) Key Takeaways <p align="center">
   <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Key%20Takeaways.png" />
 </p>
+
+  5) Data Modeling <p align="center">
+  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Data%20Modeling.png" />
+</p>
