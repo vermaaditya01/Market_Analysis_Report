@@ -2,27 +2,54 @@
 ## Maven Market Analysis Report
 A dynamic and interactive data visualization tool designed to explore the Maven Market business data, enabling analysis of overall business growth through sales performance trends, customer behavior insights & service evaluation across different regions. 
 
-### 1) Objective
-The **Maven Market Analysis Report** is an engaging Power BI report designed to analyse sales data from 24 stores across 3 countries and 10 states over a 24-month period. It focuses on uncovering business growth trends, customer behaviour patterns, product performance. This tool is intended for business managers, analysts & decision-makers who seek to evaluate sales performance, understand customer dynamics & drive data-driven strategies for business growth.
+**Explore Full Project:** [Maven Market Analysis Report](https://app.powerbi.com/view?r=eyJrIjoiNWY1YmZhYTctN2I2ZS00ZmVlLTgwMWItOWE4YzI1ZTQ5ZGM2IiwidCI6IjY3ZmM3MmU2LTIxMjctNDY2OC04YmQ3LTAwMGJkYzY5MTg1MSJ9)
 
-### 2) Tech Stack
+### 1) Screenshots (Preview)
+  a) Homepage <p align="center">
+  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Home%20Page.png" />
+</p>
+
+  b) Sales Performance Dashboard <p align="center">
+  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Sales%20Performance%20Dashboard.png" />
+</p>
+
+  c) Customer Overview Dashboard <p align="center">
+  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Customers%20Overview%20Dashboard.png" />
+</p>
+
+  d) Store & Regional Summary Dashboard <p align="center">
+  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Store%20%26%20Regional%20Summary%20Dashboard.png" />
+</p>
+
+  e) Key Takeaways <p align="center">
+  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Key%20Takeaways.png" />
+</p>
+
+  f) Data Modeling <p align="center">
+  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Data%20Modeling.png" />
+</p>
+
+### 2) Objective
+Analyze sales data from 24 stores across 3 countries and 10 states over 24 months to uncover growth trends, customer behavior, and product performance, enabling managers and analysts to drive data-driven business strategies.
+
+### 3) Tech Stack
 The following tools & technologies played key role in building this project:
-  - 🟩 **MS Excel:** Used for storing the extracted raw data tables (csv format).
-  - 🛢️ **My SQL Workbench:** Data transformation & cleaning for preparing the data for further analysis.
-  - 📊 **Power BI Desktop:** Main data visualization platform used for report creation.
-  - 🔗 **Data Modeling:** Used for relationship establishment among the tables to enable cross-filtering & aggregations.
-  - 🧠 **DAX (Data Analysis Expression):** Used for calculated measures, dynamic visuals & conditional logics.
+  - 🟩 **MS Excel:** For storing the extracted raw data tables (csv format).
+  - 🛢️ **My SQL Workbench:** Data transformation & cleaning for preparing data for further analysis.
+  - 📊 **Power BI Desktop:** Main data visualization platform, used for report creation.
+  - 🔗 **Data Modeling:** For relationship establishment among the tables to enable cross-filtering & aggregations.
+  - 🧠 **DAX (Data Analysis Expression):** For calculated measures, dynamic visuals & conditional logics.
 
-### 3) Data Source
+### 4) Data Source
 **Source:** https://github.com/ 
 - Data on 24 **Maven Market** stores spanning across 3 countries, 10 states over a 24-month period covering over 10,000 unique customers with 1,000 unique products. It captures details on sales, customer demographics, product information, store & regional attributes.
 
-### 4) Business problem
+### 5) Business problem
 Maven Market operates across multiple countries, states, and stores with a vast product portfolio and diverse customer base. However, the business lacks a centralized analytical view to track sales growth, customer retention, store performance, and regional trends. Without such insights, it becomes difficult to identify top-performing areas, optimize product offerings, and enhance customer engagement for sustainable growth.
 
 Additionally, the absence of detailed performance tracking limits the ability to measure the impact of store remodeling and service strategies. This makes it challenging for management to make data-driven decisions and maintain a competitive edge in the retail industry.
 
-### 5) Key Features
+### 6) Key Features
 Following features have been added to make the project interactive & insightful:-
 
 **a) Home Page**
@@ -66,30 +93,16 @@ Following features have been added to make the project interactive & insightful:
 **e) Key Takeaways**
 - The Key Takeaways page consolidates all major insights from the dashboards into clear, actionable points. It summarizes trends in sales growth, customer demographics, store performance, and regional contributions, allowing stakeholders to quickly understand overall business health. This page acts as the final analytical layer, transforming detailed data visuals into concise findings that can guide strategic decision-making.
 
-### 6) Use Case
+### 7) Key Findings
+  - 💰 Sales Performance: $1.76M total sales with a strong 59.7% profit margin and just a 1% return rate reflect robust demand, efficient pricing, and high customer satisfaction.
+
+  - 📊 Product Insights: Mid-range products ($1.5–$2.6) dominate sales; ADJ brand leads profitability at 68.4%, with Hermanos Green Pepper & Hilltop Mint Mouthwash driving top revenue.
+
+  - 👥 Customer Behavior: Average spend of $171.63 per customer with 61.4% retention highlights loyalty, while frequent buyers surged in 1998, boosting long-term engagement.
+
+  - 🏬 Store & Regional Trends: Supermarkets and Deluxe Supermarkets drive revenue, with Store 13 leading; the US West Coast and Mexico show highest customer density.
+
+  - 📈 Growth & Seasonality: 1998 outperformed 1997, with upward sales momentum after early dips; seasonal fluctuations point to promotional and market cycle influences.
+
+### 8) Use Case
 The **Maven Market Analysis** project serves as a decision-support tool for retail managers, business analysts, and strategists, by consolidating diverse datasets into interactive dashboards, this project empowers stakeholders to make data-driven decisions that enhance efficiency, profitability, and customer satisfaction.
-
-### 7) Screenshots (Preview)
-  1) Homepage <p align="center">
-  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Home%20Page.png" />
-</p>
-
-  2) Sales Performance Dashboard <p align="center">
-  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Sales%20Performance%20Dashboard.png" />
-</p>
-
-  3) Customer Overview Dashboard <p align="center">
-  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Customer%20Overview%20Dashboard.png" />
-</p>
-
-  4) Store & Regional Summary Dashboard <p align="center">
-  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Store%20%26%20Regional%20Summary%20Dashboard.png" />
-</p>
-
-  5) Key Takeaways <p align="center">
-  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Key%20Takeaways.png" />
-</p>
-
-  5) Data Modeling <p align="center">
-  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Data%20Modeling.png" />
-</p>
