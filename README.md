@@ -30,7 +30,7 @@ A dynamic and interactive data visualization tool designed to explore the Maven 
 </p>
 
 ### 2) Objective
-Analyze sales data from 24 stores across 3 countries and 10 states over 24 months to uncover growth trends, customer behavior, and product performance, enabling managers and analysts to drive data-driven business strategies.
+To analyze sales data from 24 stores across 3 countries and 10 states over 24 months to uncover growth trends, customer behavior, and product performance, enabling managers and analysts to drive data-driven business strategies.
 
 ### 3) Tech Stack
 The following tools & technologies played key role in building this project:
