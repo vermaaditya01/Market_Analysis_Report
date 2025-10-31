@@ -6,7 +6,7 @@ A dynamic and interactive data visualization tool designed to explore the Maven 
 
 ### 1) Screenshots (Preview)
   a) Homepage <p align="center">
-  <img src="https://github.com/vermaaditya01/SQL-Portfolio/blob/main/Project_snapshots/Home%20Page.png" />
+  <img src= "https://github.com/vermaaditya01/Market_Analysis_Report/blob/main/Project_snapshots/Home%20Page.png" />
 </p>
 
   b) Sales Performance Dashboard <p align="center">
