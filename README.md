@@ -49,7 +49,24 @@ Maven Market operates across multiple countries, states, and stores with a vast 
 
 Additionally, the absence of detailed performance tracking limits the ability to measure the impact of store remodeling and service strategies. This makes it challenging for management to make data-driven decisions and maintain a competitive edge in the retail industry.
 
-### 6) Key Features
+### 6) Challanges Faced 🚧
+During the course of this project, several technical and data-related challenges were encountered and strategically addressed to ensure accuracy and reliability of the analysis:
+
+**a) Data Cleaning Challenges❗**
+
+  - While observing the data tables the date fields were not formatted according to the standard date format of SQL, this was addressed using string functions like LPAD(), STR_TO_DATE(), SUBSTR() functions & later assigned to the date datatype.
+  - Existence of some irrelevant columns like address, postal_code, product_weight, low_fat in customers & products table might slow down the overall performance, they were dropped by using the DROP command.
+  - Some important fields (age) that were crucial for time series analysis were absent. They were CALCULATED by TIMESTAMPDIFF() function.
+  - Inconsistencies & missing values were handled by imputation techniques through a conditional WHERE clause.
+  - Appended all the transaction tables into a single consistent table using UNION ALL Clause to ensure efficiency.
+
+**b) Statistical Calculations Complications❗**
+
+  - Encountered complexity in creating a detailed measure to display the Customer Retention Rate on the customers insights dashboard, for this firs a separate measure has to be created called "Active Customers" using advanced DAX like VAR-RETURN, FILTER, CALCULATETABLE, KEEPFILTERS etc.. which was then used in final retention calculation.
+  - While developing area chart to display the Month-Over-Month comparison between frequent & occasional buyers two dynamic measures has to be created using conditional formulas & functions.
+  - Identifying top-performing stores by region posed a challenge, which was effectively addressed through analytical problem-solving and the creation of a dynamic measure using the AVERAGEX() DAX function.
+
+### 7) Key Features
 Following features have been added to make the project interactive & insightful:-
 
 **a) Home Page**
@@ -93,7 +110,7 @@ Following features have been added to make the project interactive & insightful:
 **e) Key Takeaways**
 - The Key Takeaways page consolidates all major insights from the dashboards into clear, actionable points. It summarizes trends in sales growth, customer demographics, store performance, and regional contributions, allowing stakeholders to quickly understand overall business health. This page acts as the final analytical layer, transforming detailed data visuals into concise findings that can guide strategic decision-making.
 
-### 7) Key Findings
+### 8) Key Findings
   - 💰 Sales Performance: $1.76M total sales with a strong 59.7% profit margin and just a 1% return rate reflect robust demand, efficient pricing, and high customer satisfaction.
 
   - 📊 Product Insights: Mid-range products ($1.5–$2.6) dominate sales; ADJ brand leads profitability at 68.4%, with Hermanos Green Pepper & Hilltop Mint Mouthwash driving top revenue.
@@ -104,5 +121,5 @@ Following features have been added to make the project interactive & insightful:
 
   - 📈 Growth & Seasonality: 1998 outperformed 1997, with upward sales momentum after early dips; seasonal fluctuations point to promotional and market cycle influences.
 
-### 8) Use Case
+### 9) Use Case
 The **Maven Market Analysis** project serves as a decision-support tool for retail managers, business analysts, and strategists, by consolidating diverse datasets into interactive dashboards, this project empowers stakeholders to make data-driven decisions that enhance efficiency, profitability, and customer satisfaction.
